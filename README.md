@@ -6,14 +6,14 @@ The executable, "segment", can be built on any UNIX-like platform supporting GNU
 
 Building FFMPEG
 
-tar jxvf ffmpeg-0.6.1.tar.bz2
-cd ffmpeg-0.6.1.tar
-./configure --disable-asm --enable-shared
-make -j4
+tar jxvf ffmpeg-0.6.1.tar.bz2  
+cd ffmpeg-0.6.1.tar  
+./configure --disable-asm --enable-shared  
+make -j4  
 
 Set the FFMPEG_BASE variable in the Makefiles then build segment as follows.
 
-cd segment/src
+cd segment/src  
 make
 
 To view what command line arguments are required you can just run the execuatble. You may need to set LD_LIBRAY_PATH or DYLD_LIBRARY_PATH to find the libraries. For example,
