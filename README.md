@@ -55,3 +55,9 @@ Image.inl           - definition of image operations
 Makefile            - build file for GNU make 3.8+  
 opticalFlow.h       - implementation of Horn & Schunck and Lucas and Kanade optical flow estimation algorithms  
 segment.cpp         - main program to segment video stream based on optical flow  
+
+3. Optical Flow Example  
+![Frame 0](https://github.com/bernielampe1/optical_flow/blob/master/data/frame_0.png)
+![Frame 3](https://github.com/bernielampe1/optical_flow/blob/master/data/frame_3.png)
+![Flow Magnitude](https://github.com/bernielampe1/optical_flow/blob/master/data/oflow_1.png)
+![Flow Vector](https://github.com/bernielampe1/optical_flow/blob/master/data/ovecs_1.png)
