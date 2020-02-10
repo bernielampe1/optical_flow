@@ -1,4 +1,4 @@
-This file accompanies the code for "Graph-Based Video Segmentation Using Optical Flow Fields".
+This file accompanies the code for "Graph-Based Video Segmentation Using Optical Flow Fields" which uses the Hierarchical Lucas and Kanade optical flow algorithm to estimate the flow and graph based segmentation to find connected components of similar flow.
 
 1) Building and Running
 The executable, "segment", can be built on any UNIX-like platform supporting GNU make
